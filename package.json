@@ -1,0 +1,17 @@
+{
+  "name": "uy-pareho-signaling",
+  "version": "1.0.0",
+  "description": "PeerJS signaling broker for the Uy Pareho online multiplayer game.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "peer": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}
