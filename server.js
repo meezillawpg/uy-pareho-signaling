@@ -11,6 +11,7 @@ const peerServer = PeerServer({
   port: PORT,
   path: PATH,
   allow_discovery: false,   // we don't expose a public list of connected peers
+  proxied: true,
 });
 
 peerServer.on("connection", (client) => {
